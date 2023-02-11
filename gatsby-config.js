@@ -16,7 +16,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -70,16 +69,7 @@ module.exports = {
               rel: 'nofollow noopener noreferrer',
             },
           },
-          {
-            // https://www.gatsbyjs.org/packages/gatsby-remark-images
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 700,
-              linkImagesToOriginal: true,
-              quality: 90,
-              tracedSVG: { color: config.colors.green },
-            },
-          },
+
           {
             // https://www.gatsbyjs.org/packages/gatsby-remark-code-titles/
             resolve: 'gatsby-remark-code-titles',
