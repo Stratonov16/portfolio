@@ -28,11 +28,17 @@ const StyledHeroSection = styled.section`
       margin: 0 0 20px 2px;
     }
   }
-
-  h3 {
+  h2 {
     margin-top: 5px;
-    color: var(--slate);
-    line-height: 0.9;
+
+    line-height: 1;
+    font-weight: 800;
+  }
+  h3 {
+    font-weight: 800;
+    margin-top: 5px;
+    color: var(--navy);
+    line-height: 1;
   }
 
   p {
@@ -65,8 +71,8 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm a Computer Science engineering student, graduating in 2024, actively looking for job
-        opportunities in the software industry.{' '}
+        I'm a Computer Science engineering student, graduating in 2024. Primarily interested in Web
+        Developement and Android.{' '}
       </p>
     </>
   );
